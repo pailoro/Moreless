@@ -1,0 +1,31 @@
+/* ==============================
+CSS3 Library for MoreLess System
+version 1.0
+
+Developed By:
+Fernando Aureliano - @Pailoro
+
+Licensed under Creative Commons
+creativecommons.org
+===============================*/
+
+.basicsGrid {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+
+.grid12 (@width: 1, @padding: 0) {
+	@col: @width - 1;
+	width: @width * 60px + @col * 20px;
+	padding: @padding;
+	.basicsGrid;
+}
+
+.grid16 (@width: 1, @padding: 0) {
+	@col: @width - 1;
+	width: @width * 40px + @col * 20px;
+	padding: @padding;
+	.basicsGrid;
+}

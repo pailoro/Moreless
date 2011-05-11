@@ -1,0 +1,193 @@
+/* ==============================
+CSS3 Library for MoreLess System
+version 1.0
+
+Developed By:
+Fernando Aureliano - @Pailoro
+
+Licensed under Creative Commons
+creativecommons.org
+===============================*/
+
+.corners( @radius: 5px ) {
+	-webkit-border-radius: @radius;
+	   -moz-border-radius: @radius;
+	   -o-border-radius: @radius;
+	        border-radius: @radius;		
+}
+
+
+.corner( @topright: 5px, @bottomright: 5px, @bottomleft: 5px, @topleft: 5px ) {
+	   -webkit-border-top-right-radius: @topright;
+	-webkit-border-bottom-right-radius: @bottomright;
+	 -webkit-border-bottom-left-radius: @bottomleft;
+	    -webkit-border-top-left-radius: @topleft;
+		  -moz-border-top-right-radius: @topright;
+	   -moz-border-bottom-right-radius: @bottomright;
+		-moz-border-bottom-left-radius: @bottomleft;
+		   -moz-border-top-left-radius: @topleft;
+		   -o-border-bottom-right-radius: @bottomright;
+		-o-border-bottom-left-radius: @bottomleft;
+		   -o-border-top-left-radius: @topleft;
+			   border-top-right-radius: @topright;
+			border-bottom-right-radius: @bottomright;
+			 border-bottom-left-radius: @bottomleft;
+				border-top-left-radius: @topleft;		
+}
+// -------------------------------------------------- what it does: http://www.css3.info/preview/rounded-border/
+ 
+.shadow( 
+	@x: 4px, 
+	@y: 4px, 
+	@blur: 5px, 
+	@spread: 0, 
+	@color: #000 
+) {
+	-webkit-box-shadow: @x @y @blur @spread @color;
+	   -moz-box-shadow: @x @y @blur @spread @color;
+	     -o-box-shadow: @x @y @blur @spread @color;	
+			box-shadow: @x @y @blur @spread @color;	
+}
+// -------------------------------------------------- what it does: http://www.css3.info/preview/box-shadow/
+
+.glow(  
+	@blur: 5px, 
+	@spread: 0, 
+	@color: #000 
+) {
+	-webkit-box-shadow: 0 0 @blur @spread @color;
+	   -moz-box-shadow: 0 0 @blur @spread @color;
+	     -o-box-shadow: 0 0 @blur @spread @color;	
+			box-shadow: 0 0 @blur @spread @color;	
+}
+// -------------------------------------------------- what it does: http://www.css3.info/preview/box-shadow/
+ 
+.animate(
+	@elements: all,
+	@time: 0.3s,
+	@easing: ease-in-out
+) {
+	-webkit-transition: @elements @time @easing;
+	   -moz-transition: @elements @time @easing;
+	     -o-transition: @elements @time @easing;
+		  	transition: @elements @time @easing;			
+}
+// -------------------------------------------------- what it does: http://net.tutsplus.com/tutorials/html-css-techniques/css-fundametals-css-3-transitions/
+
+.opacity(@opacity: 0.5) {
+		  -moz-opacity: @opacity;
+		-khtml-opacity: @opacity;
+	   -webkit-opacity: @opacity;
+	        -o-opacity: @opacity;
+			   opacity: @opacity;
+}
+// -------------------------------------------------- what it does: http://www.w3schools.com/css/css_image_transparency.asp
+
+.rotate( @deg: 5deg ){ 
+  -webkit-transform: rotate(@deg);
+  	 -moz-transform: rotate(@deg);
+  	   -o-transform: rotate(@deg);
+  		  transform: rotate(@deg);
+}
+// -------------------------------------------------- what it does: no link yet
+ 
+.transform(
+	@params 
+) {
+	-webkit-transform: @params;
+  	   -moz-transform: @params;
+  	     -o-transform: @params;
+  	        transform: @params;
+}
+// -------------------------------------------------- what it does: http://www.zenelements.com/blog/css3-transform/
+
+.2borders( 
+	@color1: #993300,
+	@color2: #FF9900,
+	@width:	 1px,
+	@radius: 0
+	
+) {
+	border: @width solid @color1;
+ 
+	-webkit-box-shadow: 0 0 0 1px @color2;	
+	   -moz-box-shadow: 0 0 0 1px @color2;
+	     -o-box-shadow: 0 0 0 1px @color2;
+	   		box-shadow: 0 0 0 1px @color2;
+	   		
+	   		.corners ( @radius )
+ 
+}
+// -------------------------------------------------- what it does: see link below
+ 
+.3borders( 
+	@color1: #993300,
+	@color2: #FF9900,
+	@color3: #009900,
+	@width:	 1px,
+	@radius: 0
+) {
+	border: @width solid @color1;
+ 
+ 
+	-webkit-box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color3;	
+	   -moz-box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color3;
+	   	 -o-box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color3;
+	   		box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color3;
+	   		
+	   		.corners ( @radius )
+}
+// -------------------------------------------------- what it does:  http://weston.ruter.net/2009/06/15/multiple-borders-via-css-box-shadow/
+
+.flex( @val: 1 ) {
+	-webkit-box-flex: @val;
+	   -moz-box-flex: @val;
+	     -o-box-flex: @val;
+	        box-flex: @val;
+}
+// -------------------------------------------------- what it does:  http://hacks.mozilla.org/2010/04/the-css-3-flexible-box-model/
+ 
+.resize( @direction: both ) {
+	-webkit-resize: @direction;
+	   -moz-resize: @direction;
+	     -o-resize: @direction;
+	        resize: @direction;
+}
+// -------------------------------------------------- what it does: http://www.w3schools.com/css3/css3_pr_resize.asp
+ 
+.gradient( 
+	@start: #000, 
+	@end: #fff,
+	@switch: 100%
+) {
+	background:  @start;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(@start), color-stop(@switch, @end));
+	background: -moz-linear-gradient(top, @start, @end @switch);
+	background: -o-linear-gradient(top, @start, @end @switch);
+	background: linear-gradient(top, @start, @end @switch);
+}
+// -------------------------------------------------- what it does: http://www.webdesignerwall.com/tutorials/cross-browser-css-gradient/
+ 
+.columns(
+	@count: 3,
+	@gap: 10
+) {
+	-webkit-column-count: @count;
+	   -moz-column-count: @count;
+	     -o-column-count: @count;
+	        column-count: @count;
+ 
+	-webkit-column-gap: @gap;
+	   -moz-column-gap: @gap;
+	     -o-column-gap: @gap;
+	        column-gap: @gap;
+}
+// -------------------------------------------------- what it does: http://www.quirksmode.org/css/multicolumn.html
+ 
+.boxSize( @type: border-box ) {
+	-webkit-box-sizing: @type;
+	   -moz-box-sizing: @type;
+	     -o-box-sizing: @type;
+	        box-sizing: @type;		
+}
+// -------------------------------------------------- what it does: http://css-tricks.com/box-sizing/
