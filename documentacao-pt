@@ -1,73 +1,73 @@
---------------------------------------- O que é?
+--------------------------------------- O que √©?
 
-Moreless é um framework para montagem de websites que agiliza o desenvolvimento do código CSS provendo três poderosas bibliotecas baseadas em LESS CSS. O Moreless foi produzido com a idéia de que o desenvolvedor não precise se repetir, rescrevendo o mesmo estilo de novo, de novo, e de novo…
+Moreless √© um framework para montagem de websites que agiliza o desenvolvimento do c√≥digo CSS provendo tr√™s poderosas bibliotecas baseadas em LESS CSS. O Moreless foi produzido com a id√©ia de que o desenvolvedor n√£o precise se repetir, rescrevendo o mesmo estilo de novo, de novo, e de novo‚Ä¶
 
 --------------------------------------- Bibliotecas
 
-O Moreless vem com três livrarias. São elas: NoGrid, Grid, e CSS3
+O Moreless vem com tr√™s livrarias. S√£o elas: NoGrid, Grid, e CSS3
 
 --------------------------------------- NoGrid
 
-NoGrid possibilita a produção de um código flexível. Com esta livraria, o desenvolvedor pode montar um site sem precisar limitar-se aos esquemas de Grids. Dessa forma, é possível produzir tanto sites com dimensões fixas, bem como websites de largura flexível. Não importa o tipo de montagem que você queira fazer, o noGrid é bom o suficiente para a criação de qualquer arquitetura web.
+NoGrid possibilita a produ√ß√£o de um c√≥digo flex√≠vel. Com esta livraria, o desenvolvedor pode montar um site sem precisar limitar-se aos esquemas de Grids. Dessa forma, √© poss√≠vel produzir tanto sites com dimens√µes fixas, bem como websites de largura flex√≠vel. N√£o importa o tipo de montagem que voc√™ queira fazer, o noGrid √© bom o suficiente para a cria√ß√£o de qualquer arquitetura web.
 
 --------------------------------------- Grid
 
-Convenhamos, apesar de suas limitações, há pessoas que amam desenvolver websites baseados em gris. Na verdade, para alguns projetos, um bom sistema de gris é essencial.
+Convenhamos, apesar de suas limita√ß√µes, h√° pessoas que amam desenvolver websites baseados em gris. Na verdade, para alguns projetos, um bom sistema de gris √© essencial.
 
-O problema dos Grids atuais é que, apesar de ajudarem, eles são grandes, complexos, e poluem seu código HTML com uma combinação de nomes e números que não fazem parte de uma marcação HTML elegante e natural. Além do mais, os frameworks atuais de CSS geralmente são imensos, alguns chegando a ter mais de 600 linhas de código. Eles são complicados de ler e interpretar. O Grid desenvolvido para o Moreless faz tudo que qualquer outro framework faz, mas com apenas 20 linhas de código, através de uma solução matemática simples e elegante. Além do que, passamos a responsabilidade do grids para o css, além de agora o desenvolvedor não precisar mais ficar preso a nomes de classes predefinidos na hora de fazer sua marcação HTML.
+O problema dos Grids atuais √© que, apesar de ajudarem, eles s√£o grandes, complexos, e poluem seu c√≥digo HTML com uma combina√ß√£o de nomes e n√∫meros que n√£o fazem parte de uma marca√ß√£o HTML elegante e natural. Al√©m do mais, os frameworks atuais de CSS geralmente s√£o imensos, alguns chegando a ter mais de 600 linhas de c√≥digo. Eles s√£o complicados de ler e interpretar. O Grid desenvolvido para o Moreless faz tudo que qualquer outro framework faz, mas com apenas 20 linhas de c√≥digo, atrav√©s de uma solu√ß√£o matem√°tica simples e elegante. Al√©m do que, passamos a responsabilidade do grids para o css, al√©m de agora o desenvolvedor n√£o precisar mais ficar preso a nomes de classes predefinidos na hora de fazer sua marca√ß√£o HTML.
 
 --------------------------------------- CSS3
 
-Hoje em dia, todos os navegadores modernos já estão interpretando a próxima geração do CSS, e a hora de tirar vantagem disso é agora! Mas é certo que ficar escrevendo e rescrevendo todas as mesmas propriedades para classes diferentes é extremamente cansativo e ineficiente. Com a biblioteca CSS3 do Moreless, o desenvolvedor pode parar de perder tempo rescrevendo o mesmo código sempre e sempre, e começar a fazer os mais poderosos efeitos em CSS3 sem precisar ficar se repetindo.
+Hoje em dia, todos os navegadores modernos j√° est√£o interpretando a pr√≥xima gera√ß√£o do CSS, e a hora de tirar vantagem disso √© agora! Mas √© certo que ficar escrevendo e rescrevendo todas as mesmas propriedades para classes diferentes √© extremamente cansativo e ineficiente. Com a biblioteca CSS3 do Moreless, o desenvolvedor pode parar de perder tempo rescrevendo o mesmo c√≥digo sempre e sempre, e come√ßar a fazer os mais poderosos efeitos em CSS3 sem precisar ficar se repetindo.
 
 
 
 
 --------------------------------------- Estrutura
 
-O Moreless ja vem com uma estrutura básica de arquivos para que o desenvolvedor não perca tempo na hora de iniciar seu projeto. Na hora em que você faz download e descompacta o arquivo zip, irá encontrar dentro da pasta do framework os arquivos: /css, /js e index.html
+O Moreless ja vem com uma estrutura b√°sica de arquivos para que o desenvolvedor n√£o perca tempo na hora de iniciar seu projeto. Na hora em que voc√™ faz download e descompacta o arquivo zip, ir√° encontrar dentro da pasta do framework os arquivos: /css, /js e index.html
 
-O index.html já vem com toda a estrutura básica do HTML, inclusive com as meta tags necessárias para ajudar você a configurar o SEO de sua página. Este arquivo também já chama os arquivos style.less e o javascript necessário para interpretar seu código em qualquer navegador. Este arquivo, por sua vez, faz a chamada das bibliotecas do framework, para que você apenas faça o que tem que fazer.
+O index.html j√° vem com toda a estrutura b√°sica do HTML, inclusive com as meta tags necess√°rias para ajudar voc√™ a configurar o SEO de sua p√°gina. Este arquivo tamb√©m j√° chama os arquivos style.less e o javascript necess√°rio para interpretar seu c√≥digo em qualquer navegador. Este arquivo, por sua vez, faz a chamada das bibliotecas do framework, para que voc√™ apenas fa√ßa o que tem que fazer.
 
-A página index.html também chama o arquivo funcitions.js, dentro da pasta "js". Este é um arquivo em branco, pronto para que você possa começar a escrever seu código javascript.
+A p√°gina index.html tamb√©m chama o arquivo funcitions.js, dentro da pasta "js". Este √© um arquivo em branco, pronto para que voc√™ possa come√ßar a escrever seu c√≥digo javascript.
 
-Dentro da pasta CSS, temos ainda um arquivo chamado reset.css. Este arquivo também vem em branco, para que você possa pôr ali o modelo reset de sua preferencia.
+Dentro da pasta CSS, temos ainda um arquivo chamado reset.css. Este arquivo tamb√©m vem em branco, para que voc√™ possa p√¥r ali o modelo reset de sua preferencia.
 
-Dentro da pasta CSS temos ainda uma pasta chamada "libs", que contem todas as bibliotecas do framework. Dentro dela é onde está a magia.
+Dentro da pasta CSS temos ainda uma pasta chamada "libs", que contem todas as bibliotecas do framework. Dentro dela √© onde est√° a magia.
 
 
---------------------------------------- Utilização
+--------------------------------------- Utiliza√ß√£o
 
 ------------------------ Grid
 
 O sistema de Grids do Moreless funciona com dois tipos de grids, o de 12 colunas e o de 16 colunas.
 
-Na hora de declarar uma tag HTML, você pode fazer isso da maneira que bem entender, sem se prender a nenhuma nomenclatura. Por exemplo:
+Na hora de declarar uma tag HTML, voc√™ pode fazer isso da maneira que bem entender, sem se prender a nenhuma nomenclatura. Por exemplo:
 
 <div class="main">
 </div>
 
-Na hora de escrever a classe para essa div em seu css, você faz como no exemplo a seguir.
+Na hora de escrever a classe para essa div em seu css, voc√™ faz como no exemplo a seguir.
 
 .main {
 	.grid12(6);
 }
 
-No código acima, passamos por parâmetro a quantidade de colunas que queremos em nossa div, ou qualquer outra tag HTML que você queira utilizar. Na declaração acima, ".grid12;" é o nome da função que chamamos, e o valor entre parênteses é a quantidade de grids que queremos. Por padrão, se você apenas chamar a função ".grid12;" ou ".grid16;" ele irá configurar sua div para ter apenas uma coluna.
+No c√≥digo acima, passamos por par√¢metro a quantidade de colunas que queremos em nossa div, ou qualquer outra tag HTML que voc√™ queira utilizar. Na declara√ß√£o acima, ".grid12;" √© o nome da fun√ß√£o que chamamos, e o valor entre par√™nteses √© a quantidade de grids que queremos. Por padr√£o, se voc√™ apenas chamar a fun√ß√£o ".grid12;" ou ".grid16;" ele ir√° configurar sua div para ter apenas uma coluna.
 
-É possível passar através deste parâmetro, qualquer quantidade de colunas que você desejar, desde que o limite seja de doze colunas.
+√â poss√≠vel passar atrav√©s deste par√¢metro, qualquer quantidade de colunas que voc√™ desejar, desde que o limite seja de doze colunas.
 
-Se ao invés de utilizar o Grid de 12 colunas você desejar utilizar o de 16 colunas, basta trocar o nome da função para ".grid16(value);"
+Se ao inv√©s de utilizar o Grid de 12 colunas voc√™ desejar utilizar o de 16 colunas, basta trocar o nome da fun√ß√£o para ".grid16(value);"
 
-É possível ainda definir um padding para a tag que você está editando. Só o que você precisa fazer é passar um segundo parâmetro.
+√â poss√≠vel ainda definir um padding para a tag que voc√™ est√° editando. S√≥ o que voc√™ precisa fazer √© passar um segundo par√¢metro.
 
 .main {
 	.grid12(6, 20px);
 }
 
-O valor "20px" passa para a função o padding que vc deseja aplicar para aquela classe.
+O valor "20px" passa para a fun√ß√£o o padding que vc deseja aplicar para aquela classe.
 
-Você também pode passar o valor do padding para cada lado da tag, basta fazer assim:
+Voc√™ tamb√©m pode passar o valor do padding para cada lado da tag, basta fazer assim:
 
 .main {
 	.grid12(6, 20px 10px 10px 5px);
@@ -82,66 +82,66 @@ ou ainda:
 
 ------------------------ noGrid
 
-Em nossa biblioteca de Grids, podemos utilizar os grids de 12 ou 16 colunas, mas estes Grids precisam de um container, Para nossa alegria, também podemos configura essa classe facilmente. A biblioteca "noGRid" tem uma função que faz isso por nós.
+Em nossa biblioteca de Grids, podemos utilizar os grids de 12 ou 16 colunas, mas estes Grids precisam de um container, Para nossa alegria, tamb√©m podemos configura essa classe facilmente. A biblioteca "noGRid" tem uma fun√ß√£o que faz isso por n√≥s.
 
-Digamos que temos a seguinte marcação HTML:
+Digamos que temos a seguinte marca√ß√£o HTML:
 
 <div class="container">
 	<section class="main"></section>
 	<section class="sidebar"></section>
 </div>
 
-para configurar nosso container, apenas precisamos fazer a seguinte declaração de sua classe em nosso CSS:
+para configurar nosso container, apenas precisamos fazer a seguinte declara√ß√£o de sua classe em nosso CSS:
 
 .container {
 	.container;
 }
 
-Esta simples declaração faz todas as configurações necessárias para nossa classe "container". Ele automaticamente irá declarar uma largura de 960px, além de decalrar outras propriedades básicas como "margin". Podemos ainda passar por parâmetro qualquer valor que quisermos. Se você precisar de uma largura maior ou menor, pode passar para a classe um valor diferente.
+Esta simples declara√ß√£o faz todas as configura√ß√µes necess√°rias para nossa classe "container". Ele automaticamente ir√° declarar uma largura de 960px, al√©m de decalrar outras propriedades b√°sicas como "margin". Podemos ainda passar por par√¢metro qualquer valor que quisermos. Se voc√™ precisar de uma largura maior ou menor, pode passar para a classe um valor diferente.
 
 .container {
 	.container(990px);
 }
 
-O parâmetro demonstrado acima irá mudar a largura padrão de nossa div principal.
+O par√¢metro demonstrado acima ir√° mudar a largura padr√£o de nossa div principal.
 
-Podemos utilizar ainda a mesma função para fazer um site flexível. Para isto, podemos declarar nossa div principal da seguinte forma:
+Podemos utilizar ainda a mesma fun√ß√£o para fazer um site flex√≠vel. Para isto, podemos declarar nossa div principal da seguinte forma:
 
 .container {
 	.container(100%);
 }
 
-A função irá aceitar qualquer valor de largura que você declare, seja ele em pixels ou porcentagem.
+A fun√ß√£o ir√° aceitar qualquer valor de largura que voc√™ declare, seja ele em pixels ou porcentagem.
 
 
 -------------- box
 
-Dentro de nossa biblioteca "noGrid" temos outra importante função que nos ajuda a criar estilos para os elementos e seções de nosso projeto:
+Dentro de nossa biblioteca "noGrid" temos outra importante fun√ß√£o que nos ajuda a criar estilos para os elementos e se√ß√µes de nosso projeto:
 
 .box (@width: 60px, @margin: 0 10px, @padding: 0);
 
-O exemplo acima da função nos mostra os valores que podemos passar sem precisar escrever múltiplas linhas de código para a classe.
+O exemplo acima da fun√ß√£o nos mostra os valores que podemos passar sem precisar escrever m√∫ltiplas linhas de c√≥digo para a classe.
 
-Se você apenas fizer a seguinte declaração:
+Se voc√™ apenas fizer a seguinte declara√ß√£o:
 
 .box;
 
-Você irá configurar sua classe com os valores padrões da função. Teremos então uma div com 60px de largura (esta é a largura da coluna de um Grid de 12 colunas),  margens laterais com 10px,  margens verticais com 0px cada e 0px de padding em todos os lados.
+Voc√™ ir√° configurar sua classe com os valores padr√µes da fun√ß√£o. Teremos ent√£o uma div com 60px de largura (esta √© a largura da coluna de um Grid de 12 colunas),  margens laterais com 10px,  margens verticais com 0px cada e 0px de padding em todos os lados.
 
-Estes parâmetros podem ser configurados como você preferir. Por exemplo:
+Estes par√¢metros podem ser configurados como voc√™ preferir. Por exemplo:
 
 
 div {
 	.box(400px, 0 10px, 5px);
 }
 
-Nesta declaração, "400px" se refere a largura de nossa div, enquanto "10px 0" define as margens para a classe e "5px" define o valor para o atributo padding.
+Nesta declara√ß√£o, "400px" se refere a largura de nossa div, enquanto "10px 0" define as margens para a classe e "5px" define o valor para o atributo padding.
 
-Não é necessário declarar todos os valores. Se você declarar apenas o primeiro parâmetro, os valores seguintes permanecerão com as definições padrão de suas propriedades.
+N√£o √© necess√°rio declarar todos os valores. Se voc√™ declarar apenas o primeiro par√¢metro, os valores seguintes permanecer√£o com as defini√ß√µes padr√£o de suas propriedades.
 
-É possível declarar apenas os dois primeiros valores, e os valores seguintes também permanecerão com suas definições padrão, e assim por diante.
+√â poss√≠vel declarar apenas os dois primeiros valores, e os valores seguintes tamb√©m permanecer√£o com suas defini√ß√µes padr√£o, e assim por diante.
 
-No entanto, nossa chamada não define um float para nossa classe, mas existem duas formas de se fazer isso no Moreless, uma delas é a seguinte:
+No entanto, nossa chamada n√£o define um float para nossa classe, mas existem duas formas de se fazer isso no Moreless, uma delas √© a seguinte:
 
 div {
 	.box(400px);
@@ -155,11 +155,11 @@ div {
 	.right;
 }
 
-Nossa primeira declaração define uma classe com os valores desejados, sendo que com o "folar" definido para left. Enquanto a segunda declaração configura o atributo float para a direita.
+Nossa primeira declara√ß√£o define uma classe com os valores desejados, sendo que com o "folar" definido para left. Enquanto a segunda declara√ß√£o configura o atributo float para a direita.
 
-As declarações ".left;" e ".right;" também podem ser chamadas independentemente em outras classes que por ventura não utilizem a função ".box;" para a configuração de uma classe, pois são funções independentes de ".box;".
+As declara√ß√µes ".left;" e ".right;" tamb√©m podem ser chamadas independentemente em outras classes que por ventura n√£o utilizem a fun√ß√£o ".box;" para a configura√ß√£o de uma classe, pois s√£o fun√ß√µes independentes de ".box;".
 
-A biblioteca "noGrid" tem ainda uma outra forma de configurar suas classes. Existem duas variações da função ".box;" que ja configura o float e o display inline de nossas tags. As funções são:
+A biblioteca "noGrid" tem ainda uma outra forma de configurar suas classes. Existem duas varia√ß√µes da fun√ß√£o ".box;" que ja configura o float e o display inline de nossas tags. As fun√ß√µes s√£o:
 
 .boxL; 
 
@@ -167,19 +167,19 @@ e
 
 .boxR;
 
-Ambas as funções recebem os mesmos valores por parâmetro que a função ".box;", no entanto, elas tem dois atributos extras que configuram os atributos de posicionamento para sua classe.
+Ambas as fun√ß√µes recebem os mesmos valores por par√¢metro que a fun√ß√£o ".box;", no entanto, elas tem dois atributos extras que configuram os atributos de posicionamento para sua classe.
 
-A função ".boxL;" configura a classe definindo o float para "left", e a função ".boxR;" define o float de sua tag para "right".
+A fun√ß√£o ".boxL;" configura a classe definindo o float para "left", e a fun√ß√£o ".boxR;" define o float de sua tag para "right".
 
-Caso seu elemento seja um "li", ambas as funções declaram por padrão a propriedade "display: inline;" para suas listas html. 
+Caso seu elemento seja um "li", ambas as fun√ß√µes declaram por padr√£o a propriedade "display: inline;" para suas listas html. 
 
 
 
 ------------------------ CSS3
 
-A biblioteca CSS3 do Moreless Framework tem diversas funções extremamente úteis, e se por acaso você não entender muito bem o que exatamente algumas delas fazem, basta abrir o arquivo "./css/libs/css3.less", e em baixo de cada função você terá um comentário de código que disponibiliza o link de um tutorial explicando como aquela propriedade CSS3 funciona.
+A biblioteca CSS3 do Moreless Framework tem diversas fun√ß√µes extremamente √∫teis, e se por acaso voc√™ n√£o entender muito bem o que exatamente algumas delas fazem, basta abrir o arquivo "./css/libs/css3.less", e em baixo de cada fun√ß√£o voc√™ ter√° um coment√°rio de c√≥digo que disponibiliza o link de um tutorial explicando como aquela propriedade CSS3 funciona.
 
-Se por exemplo você quiser realizar uma animação em CSS3 de um botão, na declaração do link basta chamar seguinte função:
+Se por exemplo voc√™ quiser realizar uma anima√ß√£o em CSS3 de um bot√£o, na declara√ß√£o do link basta chamar seguinte fun√ß√£o:
 
 a {
 	background: #e3e3e3;
@@ -190,37 +190,37 @@ a:hover {
 	background: #000;
 }
 
-A função ".animate;" irá declarar em sua classe todas os atributos necessários sem que você precise fornecer as propriedades de animação CSS3 de cada navegador toda vez que quiser animar um elemento.
+A fun√ß√£o ".animate;" ir√° declarar em sua classe todas os atributos necess√°rios sem que voc√™ precise fornecer as propriedades de anima√ß√£o CSS3 de cada navegador toda vez que quiser animar um elemento.
 
-Esta função também aceita parâmetros. Por exemplo, é possível alterar as variáveis da animação passando os valores da seguinte forma:
+Esta fun√ß√£o tamb√©m aceita par√¢metros. Por exemplo, √© poss√≠vel alterar as vari√°veis da anima√ß√£o passando os valores da seguinte forma:
 
 a {
 	background: #e3e3e3;
 	.animate(all, 0.3s, ease-in-out);
 }
 
-Podemos dar outro exemplo. Caso vc deseje alterar o border radius em seu elemento HTML, basta fazer a seguinte declaração:
+Podemos dar outro exemplo. Caso vc deseje alterar o border radius em seu elemento HTML, basta fazer a seguinte declara√ß√£o:
 
 div {
 	.corners;
 }
 
-Por padrão, a função acima define todas as bordas de sua div para ter um radius de "5px", mas é possível ainda alterar este valor da seguinte forma:
+Por padr√£o, a fun√ß√£o acima define todas as bordas de sua div para ter um radius de "5px", mas √© poss√≠vel ainda alterar este valor da seguinte forma:
 
 div {
 	. corners(20px);
 }
 
-É também definir um valor diferente para cada borda de sua div com a função "corner" (sem o "s"):
+√â tamb√©m definir um valor diferente para cada borda de sua div com a fun√ß√£o "corner" (sem o "s"):
 
 div {
 	. corner(10px, 5px, 20px, 15px);
 }
 
 
-A biblioteca CSS3 do Moreless é uma de nossas bibliotecas mais poderosas. Recomendamos que você dê uma olhada em seu código para que possa saber melhor de tudo que ela é capaz.
+A biblioteca CSS3 do Moreless √© uma de nossas bibliotecas mais poderosas. Recomendamos que voc√™ d√™ uma olhada em seu c√≥digo para que possa saber melhor de tudo que ela √© capaz.
 
-De qualquer forma, vamos disponibilizar abaixo uma lista de todas as funções disponíveis nesta biblioteca.
+De qualquer forma, vamos disponibilizar abaixo uma lista de todas as fun√ß√µes dispon√≠veis nesta biblioteca.
 
 . corners;
 . corner;
