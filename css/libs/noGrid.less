@@ -14,6 +14,18 @@ Fernando Aureliano - @Pailoro
 * http://sam.zoy.org/wtfpl for more details. 
 ===============================*/
 
+.left {
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+
+.right {
+	float: right;
+	display: inline;
+	overflow: hidden;
+}
+
 .container (@width: 980px) {
 	width: @width;
 	margin: 0 auto;
@@ -23,18 +35,14 @@ Fernando Aureliano - @Pailoro
 	width: @width;
 	margin: @margin;
 	padding: @padding;
-	overflow: hidden;
-	float: left;
-	display: inline;
+	.left;
 }
 
 .boxR (@width: 60px, @margin: 0 10px, @padding: 0) {
 	width: @width;
 	margin: @margin;
 	padding: @padding;
-	overflow: hidden;
-	float: right;
-	display: inline;
+	.right;
 }
 
 .box (@width: 60px, @margin: 0 10px, @padding: 0) {
@@ -42,14 +50,4 @@ Fernando Aureliano - @Pailoro
 	margin: @margin;
 	padding: @padding;
 	overflow: hidden;
-}
-
-.left {
-	float: left;
-	display: inline;
-}
-
-.right {
-	float: right;
-	display: inline;
 }
