@@ -1,0 +1,238 @@
+--------------------------------------- What is it?  
+
+Moreless is a framework for setting up websites that streamlines the development of CSS code providing three powerful LESS CSS-based libraries. The Moreless was produced with the idea that the developer does not need repeating, rewriting the same style again and again and again ...
+
+--------------------------------------- Libraries
+
+The Moreless comes with three libraries. They are: NoGrid, Grid, and CSS3
+
+--------------------------------------- NoGrid
+
+NoGrid enables the production of a flexible code. With this library, the developer can build a site without having to be confined to schemes Grids. Thus, it is possible to produce both sites with fixed dimensions, and websites of flexible width. No matter what type of mount you want to do, noGrid is good enough to create any web architecture.
+
+--------------------------------------- Grid
+
+Admittedly, despite its limitations, there are people who love to develop websites based on gray. In fact, for some projects, a good system of gray is essential.
+
+The problem is that the current Grids, although helpful, they are large, complex, and pollute your HTML code with a combination of names and numbers that are not part of an elegant and natural markup. Moreover, the current CSS frameworks are usually huge, some even have more than 600 lines of code. They are difficult to read and interpret. Grid developed for Moreless does everything any other framework does, but with only 20 lines of code through a simple and elegant mathematical solution. Besides, the responsibility passed to the css grids, and now the developer no longer needs to be stuck with predefined class names in time to make your HTML markup.
+
+--------------------------------------- CSS3
+
+Today, all modern browsers are already playing the next generation of CSS, and time to take advantage of this is now! But it is certain that keep writing and rewriting all the same properties for different classes is extremely tiring and inefficient. With the library of the CSS3 Moreless, the developer can stop wasting time rewriting the same code again and again, and start making more powerful effects without CSS3 repeat yourself.
+
+
+
+
+--------------------------------------- Structure
+
+The Moreless already comes with a basic file structure so that the developer does not waste time when you start your project. By the time you download and unpack the zip file, you will find within the framework of the folder the files: / css / js and index.html
+
+Index.html comes with all the basic structure of HTML, including the meta tags needed to help you set up the SEO of your page. This file has also called style.less and javascript files needed to interpret your code in any browser. This file in turn, makes the call of the framework libraries, so you just do what you gotta do.
+
+The page also calls the index.html file funcitions.js, inside the "js". This is a blank file, ready for you to start writing your javascript code.
+
+Inside the folder CSS, we still have a file called reset.css. This file also comes in white, so you can put there reset the model of your choice.
+
+Inside the folder CSS we still have a folder called "libs", which contains all the framework libraries. Inside is where the magic.
+
+
+--------------------------------------- Use
+
+------------------------ Grid
+
+The system of Grids Moreless works with two types of grids, the 12 columns and 16 columns.
+
+At the time of declaring an HTML tag, you can do it the way he wants, without being attached to any nomenclature. For example:
+
+<div class="main">
+</ Div>
+
+At time of writing the class to the div in your css, you do as the following example.
+
+. main {
+. Grid12 (6);
+}
+
+In the above, we passed parameter the number of columns we want in our div, or any other HTML tag you want to use. In the statement above. "Grid12," is the name of the function call, and the value in parentheses is the number of grids we want. By default, if you just call the function ". Grid12," or ". Grid16, 'He will set your div to have only one column.
+
+You can pass through this parameter, any number of columns you want, provided that the limit is twelve columns.
+
+If instead of using the grid of 12 columns you want to use 16 columns, just change the function name to ". Grid16 (value);"
+
+You can also define a padding for the tag you are editing. All you need do is pass a second parameter.
+
+. main {
+. Grid12 (6, 20px);
+}
+
+The value "20px" passes to the padding that you want to apply for that class.
+
+You can also pass the value of the padding for each side of the tag, just like this:
+
+. main {
+. Grid12 (6, 20px 10px 10px 5px);
+}
+
+or:
+
+. Main {
+. Grid12 (6, 20px 10px);
+}
+
+
+------------------------ NoGrid
+
+Grids in our library, we can use the grids of 12 or 16 columns, but these grids need a container, to our joy, we can also easily configure this class. The library "noGRid" has a function that does this for us.
+
+Say we have the following HTML markup:
+
+<div class="container">
+<section class="main"> </ section>
+<section class="sidebar"> </ section>
+</ Div>
+
+to tailor our container, we just need to make the following statement in its class in our CSS:
+
+. Container {
+. Container;
+}
+
+This simple statement is all the settings needed for our class "container". It will automatically declare a width of 960px, and other basic properties decalrar as "margin". We can also pass any parameter value that we want. If you need a greater or lesser width, the class can move to a different value.
+
+. Container {
+. Container (990px);
+}
+
+The parameter shown above will change the standard width of our main div.
+
+We can still use the same function to make a flexible site. For this, we can state our main div as follows:
+
+. Container {
+. Container (100%);
+}
+
+The function will accept any width value you declare, either in pixels or percentage.
+
+
+-------------- Box
+
+Within our library "noGrid" we have another important function that helps us to create styles for the elements and sections of our project:
+
+. Box (@ width: 60px, @ margin: 10px 0, @ padding: 0);
+
+The example above the function shows the values ​​that we can do without having to write multiple lines of code for the class.
+
+If you just make the following statement:
+
+. Box;
+
+You will set up your class with the default values ​​of the function. We will then have a div with 60px width (this is the column width of a grid of 12 columns), with lateral margins of 10px, with vertical edges and each 0px 0px padding on all sides.
+
+These parameters can be configured as you prefer. For example:
+
+
+div {
+. Box (400px, 0 10px, 5px);
+}
+
+In this statement, "400px" refers to the width of our div as "10px 0" sets the margins for the class and "5px" sets the padding value for the attribute.
+
+It is not necessary to declare all the values. If you declare only the first parameter, the following values ​​will remain with the standard of their properties.
+
+You can declare only the first two values, and the following values ​​will also remain with their default settings, and so on.
+
+However, our calling does not define a float for our class, but there are two ways to do this in Moreless, one of them is as follows:
+
+div {
+. Box (400px);
+. Left;
+}
+
+or
+
+div {
+. Box (400px);
+. Right;
+}
+
+Our first statement defines a class with the desired values, and with the "folar" set to left. While the second statement sets the float attribute to the right.
+
+Statements. "Left;" and ". Right," can also be called independently in other classes that perhaps do not use the function. "Box," for setting up a class, they are independent functions. "Box;" .
+
+The library "noGrid" is yet another way to set up their classes. There are two variations of the function. "Box," which already sets the float and our display inline tags. The functions are:
+
+. BoxL;
+
+and
+
+. BoxR;
+
+Both functions take the same parameter values ​​for the function. "Box," however, they have two extra attributes that configure the positioning attributes for your class.
+
+The ". BoxL," sets the class defining the float to "left" and "function. BoxR," defines the tag to float their "right".
+
+If your item is a "read" both state functions by default the property "display: inline;" html to your lists.
+
+
+
+------------------------ CSS3
+
+The library of the CSS3 Moreless Framework has several functions that are useful, and if by chance you do not quite understand what exactly some of them do, just open the file "./css/libs/css3.less", and bottom of each function you will have a code comment that provides a link to a tutorial explaining how that works CSS3 property.
+
+If for example you want to do an animation in CSS3 of a button, the link in the statement simply call the following function:
+
+a {
+background: # e3e3e3;
+. Animate;
+}
+
+a: hover {
+background: # 000;
+}
+
+Function. "Animate," will declare its class in all the necessary attributes without requiring you to provide the animation CSS3 properties of each browser every time you want to animate an element.
+
+This function also accepts parameters. For example, you can change the variables of animation passing the values ​​as follows:
+
+a {
+background: # e3e3e3;
+. Animate (all, 0.3s, ease-in-out);
+}
+
+We can give another example. If you want to change the border radius in your HTML element, just make the following statement:
+
+div {
+. Corners;
+}
+
+By default, the function sets up all the edges of your div to have a radius of "5px", but you can still change this value as follows:
+
+div {
+. corners (20px);
+}
+
+It also set a different value for each edge of your div with the "corner" (without the "s"):
+
+div {
+. corner (10px, 5px, 20px, 15px);
+}
+
+
+The library of the CSS3 Moreless is one of our most powerful libraries. We recommend you take a look at your code so that you know best of all she is capable.
+
+Anyway, we provide below a list of all available functions in this library.
+
+. corners;
+. corner;
+. BoxShadow;
+. Animate;
+. Opacity;
+. Rotate;
+. Transform;
+.2 Borders;
+.3 Borders;
+. Flex;
+. Resize;
+. Gradient;
+. Columns;
+. BoxSize;
