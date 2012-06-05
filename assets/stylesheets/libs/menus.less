@@ -1,0 +1,133 @@
+/******************************
+Animate Elements
+******************************/
+
+.animate(
+	@elements: all,
+	@time: 0.3s,
+	@easing: ease-in-out
+) {
+	-webkit-transition: @elements @time @easing;
+	   -moz-transition: @elements @time @easing;
+	     -o-transition: @elements @time @easing;
+		  	transition: @elements @time @easing;			
+}
+
+
+/******************************
+Horizontal Menu
+******************************/
+
+/* Function Builder */
+.horizontalMenuBuilder ( @link: #ccc, @hover: #fff, @bg: #2D2D2D, @position: relative ) {
+	width: 100%;
+	height: 36px;
+	position: @position;
+	background: #2D2D2D;
+	
+/* 	Main Menu */
+	> ul {
+		padding: 10px 10px;
+		float: left;
+		z-index: 100;
+
+		
+		> li {
+			float: left;
+			display: inline;
+			margin-right: 20px;
+			position: relative;
+			overflow: visible;
+			padding-bottom: 8px;
+			
+			&:hover {
+				border-bottom: 2px solid red;
+				
+				> ul {
+					left: 0;
+				}
+			}
+			
+			/*	submenu */
+			> ul {
+				position: absolute;
+				min-width: 80px;
+				overflow: hidden;
+				padding: 5px;
+				margin-top: 10px;
+				left: -900px;
+				z-index: 90;
+				background: @bg;
+				.animate;
+				
+				li {
+					
+				}
+			}
+		}
+		
+		/* links Styles */
+		a {
+			color: @link;
+			
+			&:hover {
+				color: @hover;
+			}
+		}
+	}
+	
+/* 	here go the right elsments if have someone */
+	.rightElements {
+		float: right;
+		margin-top: 7px;
+	}
+}
+
+/* Class Horizontal Menu */
+.horizontalMenu {
+	.horizontalMenuBuilder;
+}
+
+/******************************
+Vertical Menu
+******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
